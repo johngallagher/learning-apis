@@ -1,6 +1,46 @@
-## Intro
+Technical marketing, growth hacking, call it what you want. There's a demand on digital marketers to become more technically savvy.
 
+But where on earth do you start? Python, APIs, web development, scripting... it's all pretty confusing and complex. You can waste hours on useless tutorials, banging your head against a brick wall.
 
+I'm a programmer who loves teaching. I want to help digital marketers understand this stuff.
+
+I've heard a few folk talk about dashboards and APIs so I thought that'd be a good place to start.
+
+I'd love your feedback on what challenges you have and what you'd like to learn.
+
+## Goal
+
+Let's imagine we've got a Google Analytics account containing all our sales data.
+
+We want to make a dashboard to see revenue alongside Twitter followers, customer support tickets and Facebook likes.
+
+As a first step, we want to see a widget with revenue in it, a bit like so:
+
+![](https://dl.dropboxusercontent.com/u/136780/0_dashboard.png)
+
+## Background
+
+We're going to be using:
+
+* A dummy Google Analytics account with data already populated
+* Cyfe for the dashboards
+* Python for the script
+* APIs to export and import the data
+* Cloud 9 IDE to get you up and running quickly
+* A healthy dose of optimism
+
+Stuff I've already done:
+
+* Setup a Google Analytics account with dummy data in it
+* Built a Python script that can extract the data and push it into Cyfe
+
+What you need to do:
+
+* Create Cloud 9 IDE and Cyfe accounts
+* Setup the script on Cloud 9
+* Run the script
+
+**Let's get going!**
 
 ## Steps
 
