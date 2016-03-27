@@ -65,7 +65,7 @@ def as_ordered_dict(row):
 # Now for the exciting bit - push it to the Cyfe API!
 def push_to_dashboard(data):
     print('Pushing data to Cyfe dashboard...')
-    return requests.post(sys.argv[0], json = data)
+    return requests.post(sys.argv[1], json = data)
 
 # Boring. Just report back on what just happened. Did it work?
 def show_error_or_success_message(response):
@@ -75,7 +75,7 @@ def show_error_or_success_message(response):
         print('Uh oh, looks like there was an error: ' + response.json()['message'])
 
 # Kick things off.
-if len(sys.argv) == 1:
+if len(sys.argv) == 2:
     main()
 else:
     print("Whoops. You need to enter your Cyfe widget URL when running this command.")
