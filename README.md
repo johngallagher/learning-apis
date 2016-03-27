@@ -6,7 +6,7 @@
 
 ### 1. Sign up for Cyfe and login
 
-Go to `http://www.cyfe.com` and sign up and log in. It's free!
+[Go to Cyfe](http://www.cyfe.com) and sign up and log in. It's free!
 
 ![](https://dl.dropboxusercontent.com/u/136780/1_signup_for_cyfe.png)
 
@@ -37,6 +37,8 @@ You might want to copy and paste the URL into a text document somewhere for late
 ### 6. Sign up to Cloud 9 IDE and sign in
 
 Cloud 9 IDE is brilliant - it allows us to get started easily.
+
+[Go to their homepage](http://c9.io) and sign up and sign in.
 
 ![](https://dl.dropboxusercontent.com/u/136780/6_sign_up_and_sign_in.png)
 
