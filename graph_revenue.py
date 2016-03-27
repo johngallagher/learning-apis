@@ -7,9 +7,9 @@ from datetime import datetime
 import requests
 import collections
 from oauth2client.service_account import ServiceAccountCredentials
+import sys
 
-# Change these as necessary
-CYFE_WIDGET_URL = 'https://app.cyfe.com/api/push/56f6caee12aa61521774432060901'
+# Do you want a different date range? Change it here!
 START_DATE = '2016-03-14'
 END_DATE = '2016-03-26'
 
@@ -17,10 +17,10 @@ END_DATE = '2016-03-26'
 def main():
     # 1. Get the dashboard data and format it
     dashboard_data = as_dashboard_data(with_headers(get_revenues()))
-    
+
     # 2. Push it to the Cyfe dashboard
     response = push_to_dashboard(dashboard_data)
-    
+
     # 3. Report back what happened - did it work?
     show_error_or_success_message(response)
 
@@ -52,10 +52,10 @@ def with_headers(data):
 
 def extract_rows(data):
     return data['rows']
-    
+
 def extract_headers(data):
     return [header['name'] for header in data['columnHeaders']]
-    
+
 def as_dashboard_data(rows):
     return { 'data': [as_ordered_dict(row) for row in rows], 'onduplicate': { 'Revenue': 'replace' } }
 
@@ -65,7 +65,7 @@ def as_ordered_dict(row):
 # Now for the exciting bit - push it to the Cyfe API!
 def push_to_dashboard(data):
     print('Pushing data to Cyfe dashboard...')
-    return requests.post(CYFE_WIDGET_URL, json = data)
+    return requests.post(sys.argv[0], json = data)
 
 # Boring. Just report back on what just happened. Did it work?
 def show_error_or_success_message(response):
@@ -75,4 +75,9 @@ def show_error_or_success_message(response):
         print('Uh oh, looks like there was an error: ' + response.json()['message'])
 
 # Kick things off.
-main()
+if len(sys.argv) == 1:
+    main()
+else:
+    print("Whoops. You need to enter your Cyfe widget URL when running this command.")
+    print("Type: python graph_revenue.py your-cyfe-widget-url")
+    print("Example: python graph_revenue.py https://app.cyfe.com/api/push/56f7a767cbd212158125742061285")
