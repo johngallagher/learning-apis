@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Install python 3.5
+virtualenv --python=python3.5 env
+
+# Activate python
+source env/bin/activate
+
+# Install all the packages
+pip install -r requirements.txt
