@@ -1,5 +1,3 @@
-## How do I get more technical?
-
 Technical marketing, growth hacking, call it what you want. There's a demand on digital marketers to become more technically savvy.
 
 But where on earth do you start? Python, APIs, web development, scripting... it's all pretty confusing and complex. You can waste hours on useless tutorials, banging your head against a brick wall.
@@ -10,7 +8,7 @@ This is my first tutorial, just to test the waters.
 
 I've heard a few folk talk about dashboards and APIs so I thought that'd be a good place to start.
 
-I'd love to hear [your feedback on what challenges you have]() and what you'd like to learn.
+I'd love to hear [your feedback on what challenges you have](http://goo.gl/forms/82oj2ypKeU) and what you'd like to learn.
 
 ## Goal
 
@@ -173,9 +171,9 @@ But before I plough loads of time into it, I need to understand what you want.
 
 I've put together a 6 question survey. It should take you about 3 minutes to fill in.
 
-[Take the survey here]()
+[Take the survey here](http://goo.gl/forms/82oj2ypKeU)
 
-I've love to hear all about you!
+I'd love to learn all about your challenges!
 
 ## All feedback is welcome
 
