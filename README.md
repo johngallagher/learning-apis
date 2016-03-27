@@ -1,12 +1,16 @@
+## How do I get more technical?
+
 Technical marketing, growth hacking, call it what you want. There's a demand on digital marketers to become more technically savvy.
 
 But where on earth do you start? Python, APIs, web development, scripting... it's all pretty confusing and complex. You can waste hours on useless tutorials, banging your head against a brick wall.
 
 I'm a programmer who loves teaching. I want to help digital marketers understand this stuff.
 
+This is my first tutorial, just to test the waters. 
+
 I've heard a few folk talk about dashboards and APIs so I thought that'd be a good place to start.
 
-I'd love your feedback on what challenges you have and what you'd like to learn.
+I'd love to hear [your feedback on what challenges you have]() and what you'd like to learn.
 
 ## Goal
 
@@ -149,3 +153,38 @@ Go back to your Cyfe dashboard. You should see a lovely graph of revenue. Woohoo
 
 
 ![](https://dl.dropboxusercontent.com/u/136780/11_look_at_cyfe.png)
+
+
+## But I want more!
+
+If you enjoyed this, you might want to know:
+
+* How on earth does this all work?
+* What is Python?
+* Why use APIs?
+* How can I change this to show clicks instead of revenue?
+* Why was Ricky Martin ever popular?
+
+## Tell me what you want
+
+I want to create a series of courses to help you learn the bits of programming you care about.
+
+But before I plough loads of time into it, I need to understand what you want.
+
+I've put together a 6 question survey. It should take you about 3 minutes to fill in.
+
+[Take the survey here]()
+
+I've love to hear all about you!
+
+## All feedback is welcome
+
+* Did you hate this?
+* Did you find it boring?
+* Would you rather I showed you how to do something a bit more interesting to you?
+* Was it too long?
+* Did you dream about Ricky Martin again last night?
+
+Please leave me a comment below or hit me up on Twitter - http://twitter.com/synapticmishap
+
+Thanks for reading!
