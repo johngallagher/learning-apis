@@ -1,0 +1,9 @@
+ga:date,ga:medium,ga:source,ga:adCost,ga:adClicks,ga:impressions,ga:campaign,ga:adwordsCampaignID
+20160314,google,cpc,75000,140,102000,Brand - Coffee product,1
+20160314,google,cpc,75000,140,102000,Brand - Beer product,2
+20160314,google,cpc,75000,140,102000,Brand - Cake mix product,3
+20160314,google,cpc,75000,140,102000,Brand - Almonds product,4
+20160315,google,cpc,82100,140,98000,Brand - Coffee product,1
+20160315,google,cpc,82100,140,98000,Brand - Beer product,2
+20160315,google,cpc,82100,140,98000,Brand - Cake mix product,3
+20160315,google,cpc,82100,140,98000,Brand - Almonds product,4
