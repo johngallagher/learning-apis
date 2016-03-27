@@ -8,38 +8,53 @@
 
 Go to `http://www.cyfe.com` and sign up and log in. It's free!
 
-[hello](http://jeffsuderman.com/wp-content/uploads/2015/10/WOW.png)
+![](https://dl.dropboxusercontent.com/u/136780/1_signup_for_cyfe.png)
 
 ### 2. Add a widget
 
 Click on the Add a widget button in the toolbar at the top.
 
+![](https://dl.dropboxusercontent.com/u/136780/2_add_a_widget.png)
+
 ### 3. Select a Push API widget
 
 Add a widget that can be pushed to via an API.
+
+![](https://dl.dropboxusercontent.com/u/136780/3_select_push_widget.png)
 
 ### 4. Configure the widget
 
 Click on the `Configure widget` button
 
+![](https://dl.dropboxusercontent.com/u/136780/4_configure_the_widget.png)
+
 ### 5. Take a note of the widget URL and save
 
 You might want to copy and paste the URL into a text document somewhere for later.
+
+![](https://dl.dropboxusercontent.com/u/136780/5_take_note_of_widget_url_and_save.png)
 
 ### 6. Sign up to Cloud 9 IDE and sign in
 
 Cloud 9 IDE is brilliant - it allows us to get started easily.
 
+![](https://dl.dropboxusercontent.com/u/136780/6_sign_up_and_sign_in.png)
+
 ### 7. Create a new workspace
 
 So that you have a sandbox to play around in.
 
-### 8. Clone down this project
+![](https://dl.dropboxusercontent.com/u/136780/7_create_workspace.png)
+
+
+### 8. Setup the workspace with the code from Github
 
 * Set the name of the workspace
 * Set the workspace to be private so no-one else can see it
 * Fill in the Github clone URL to be `git@github.com:johngallagher/learning-apis.git`
 * Make sure to select a Python workspace
+
+![](https://dl.dropboxusercontent.com/u/136780/8_clone_into_workspace.png)
 
 ### 9. Setup
 
@@ -52,6 +67,8 @@ virtualenv --python=python3.5 env
 source env/bin/activate
 pip install -r requirements.txt
 ```
+
+![](https://dl.dropboxusercontent.com/u/136780/9_setup.png)
 
 ### 10. Run!
 
@@ -82,8 +99,11 @@ Pushing data to Cyfe dashboard...
 Data pushed successfully!
 ```
 
+![](https://dl.dropboxusercontent.com/u/136780/10_run.png)
+
 ### 11. Look at Cyfe
 
 Go back to your Cyfe dashboard. You should see a lovely graph of revenue. Woohoo!
 
 
+![](https://dl.dropboxusercontent.com/u/136780/11_look_at_cyfe.png)
